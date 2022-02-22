@@ -64,10 +64,10 @@
     <Folder Include="SchemaComparison" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Person.sql" />
-    <Build Include="dbo\Tables\PhoneNumber.sql" />
-    <Build Include="dbo\Tables\Location.sql" />
-    <Build Include="dbo\Tables\LocationVisit.sql" />
+    <Build Include="dbo\Tables\People.sql" />
+    <Build Include="dbo\Tables\PhoneNumbers.sql" />
+    <Build Include="dbo\Tables\Locations.sql" />
+    <Build Include="dbo\Tables\LocationVisits.sql" />
     <Build Include="dbo\Views\PersonPrimaryPhoneView.sql" />
     <Build Include="dbo\StoredProcedures\spPerson_LocationsVisited.sql" />
     <Build Include="dbo\StoredProcedures\spLocation_PeopleVisited.sql" />
@@ -75,5 +75,8 @@
   <ItemGroup>
     <None Include="PublishProfiles\PersonDB.publish.xml" />
     <None Include="SchemaComparison\SqlSchemaCompare1.scmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="PersonDB.refactorlog" />
   </ItemGroup>
 </Project>

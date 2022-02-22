@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5af7c233-cbe2-42f3-b139-a983d1c5853f" ChangeDateTime="02/22/2022 23:09:38">
+    <Property Name="ElementName" Value="[dbo].[Location]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Locations]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="08fa0e83-c6de-4c1d-be8e-79b42c34c58e" ChangeDateTime="02/22/2022 23:10:08">
+    <Property Name="ElementName" Value="[dbo].[LocationVisit]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[LocationVisits]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b64636af-e96e-4645-9f16-e830bf706c6e" ChangeDateTime="02/22/2022 23:10:39">
+    <Property Name="ElementName" Value="[dbo].[Person]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[People]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f1b56786-0f77-4446-8bdb-9bfb9233b70a" ChangeDateTime="02/22/2022 23:10:58">
+    <Property Name="ElementName" Value="[dbo].[PhoneNumber]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[PhoneNumbers]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9fe75b98-0d86-487f-aa5b-3866034eed34" ChangeDateTime="02/22/2022 23:14:15">
+    <Property Name="ElementName" Value="[dbo].[Locations].[LocationName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Locations]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[PointOfInterest]" />
+  </Operation>
+</Operations>
